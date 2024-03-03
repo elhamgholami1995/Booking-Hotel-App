@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./component/Header/Header";
 import LocationList from "./component/LoctionList/locationList";
 import { Route, Routes } from "react-router-dom";
+import AppLayout from "./component/Header/AppLayout/AppLayout";
 
 function App() {
   return (
@@ -11,6 +12,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<LocationList />} />
+        <Route path="/hotels" element={<AppLayout />}>
+          <Route index element={<div>Hotels</div>} />
+          <Route path=":id" element={<div>single hotel</div>} />
+        </Route>
       </Routes>
     </div>
   );
