@@ -12,8 +12,9 @@ function BookmarkListProvider({ children }) {
   const [isLoadingCurrBookmark, setIsLoadingCurrBookmark] = useState(false);
   const { isLoading, data: bookmarks } = useFetch(`${BASE_URL}/bookmarks`);
 
-  async function getBookmarks(id) {
+  async function getBookmark(id) {
     setIsLoadingCurrBookmark(true);
+    setCurrentBookmark(null);
     try {
       const { data } = await axios.get(`${BASE_URL}/bookmarks/${id}`);
       setCurrentBookmark(data);
@@ -28,7 +29,7 @@ function BookmarkListProvider({ children }) {
       value={{
         isLoading,
         bookmarks,
-        getBookmarks,
+        getBookmark,
         isLoadingCurrBookmark,
         currentBookmark,
       }}
