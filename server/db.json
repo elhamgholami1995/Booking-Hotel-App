@@ -565,7 +565,7 @@
         "height": 480,
         "url": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/airbnb-listings/files/3bfbda897a5a3ef02a761d3edb784dfd"
       },
-      "xl_picture_url":  "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/airbnb-listings/files/3bfbda897a5a3ef02a761d3edb784dfd",
+      "xl_picture_url": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/airbnb-listings/files/3bfbda897a5a3ef02a761d3edb784dfd",
       "host_id": "1446698",
       "host_url": "https://www.airbnb.com/users/show/1446698",
       "host_name": "Eva",
@@ -694,7 +694,7 @@
         "height": 480,
         "url": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/airbnb-listings/files/6351fdb41e5c30c168b2488e052d032f"
       },
-      "xl_picture_url":"https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/airbnb-listings/files/6351fdb41e5c30c168b2488e052d032f",
+      "xl_picture_url": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/airbnb-listings/files/6351fdb41e5c30c168b2488e052d032f",
       "host_id": "36775877",
       "host_url": "https://www.airbnb.com/users/show/36775877",
       "host_name": "Raquel",
@@ -820,7 +820,7 @@
         "height": 480,
         "url": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/airbnb-listings/files/065e90eb568e7e4e34733eb9d6f3ec76"
       },
-      "xl_picture_url":  "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/airbnb-listings/files/065e90eb568e7e4e34733eb9d6f3ec76",
+      "xl_picture_url": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/airbnb-listings/files/065e90eb568e7e4e34733eb9d6f3ec76",
       "host_id": "15625753",
       "host_url": "https://www.airbnb.com/users/show/15625753",
       "host_name": "Pollo",
@@ -1368,6 +1368,42 @@
       "longitude": "67.78003711374224",
       "host_location": "Baba Kot Pakistan",
       "id": 8
+    },
+    {
+      "cityName": "Tabriz",
+      "country": "Iran (Islamic Republic of)",
+      "countryCode": "IR",
+      "latitude": "38.06368769660297",
+      "longitude": "46.636523419416065",
+      "host_location": "Tabriz Iran (Islamic Republic of)",
+      "id": 9
+    },
+    {
+      "cityName": "Gourma Rharous",
+      "country": "Mali",
+      "countryCode": "ML",
+      "latitude": "16.38590251426768",
+      "longitude": "-1.923070593885985",
+      "host_location": "Gourma Rharous Mali",
+      "id": 10
+    },
+    {
+      "cityName": "Hun",
+      "country": "Libya",
+      "countryCode": "LY",
+      "latitude": "26.59116447000743",
+      "longitude": "18.046256095490893",
+      "host_location": "Hun Libya",
+      "id": 11
+    },
+    {
+      "cityName": "Tchirozerine",
+      "country": "Niger (the)",
+      "countryCode": "NE",
+      "latitude": "17.311561001355724",
+      "longitude": "8.903877236138545",
+      "host_location": "Tchirozerine Niger (the)",
+      "id": 12
     }
   ]
 }
