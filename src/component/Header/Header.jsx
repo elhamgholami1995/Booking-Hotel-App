@@ -191,7 +191,7 @@ function User() {
           <span>{user.name}</span>
           <button>
             {" "}
-            <HiLogout onClick={handleLogout} className="icon" />
+            <HiLogout onClick={handleLogout} className="logout icon" />
           </button>
         </div>
       ) : (
