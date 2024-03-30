@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { Children, createContext } from "react";
 import axios, { formToJSON } from "axios";
 import { useSearchParams } from "react-router-dom";
-import useFetch from "../hooks/useFetch";
+import useFetch from "../../hooks/useFetch";
 import toast from "react-hot-toast";
 
 const HotelContext = createContext();

@@ -7,7 +7,7 @@ import {
   HiSearch,
 } from "react-icons/hi";
 import { useRef, useState } from "react";
-import useOutsideClick from "../hooks/useOutsideClick";
+import useOutsideClick from "../../hooks/useOutsideClick";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { DateRange, DateRangePicker } from "react-date-range";

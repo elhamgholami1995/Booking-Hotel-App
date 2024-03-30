@@ -9,8 +9,8 @@ import {
 import { useHotels } from "../context/HotelsProvider";
 import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import useGeoLocation from "../hooks/useGeoLocation";
-import useUrlLocation from "../hooks/useUrlLocation";
+import useGeoLocation from "../../hooks/useGeoLocation";
+import useUrlLocation from "../../hooks/useUrlLocation";
 
 function Map({ markerLocations }) {
   // const { isLoading, hotels } = useHotels();

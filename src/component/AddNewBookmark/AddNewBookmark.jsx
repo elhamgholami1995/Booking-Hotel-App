@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import useUrlLocation from "../hooks/useUrlLocation";
+import useUrlLocation from "../../hooks/useUrlLocation";
 import axios from "axios";
 import Loader from "../Loader/Loader";
 import ReactCountryFlag from "react-country-flag";
